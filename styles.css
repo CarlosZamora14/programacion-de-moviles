@@ -1,7 +1,7 @@
 :root {
   --clr-white: #FCFCFC;
-  --clr-light-yellow: #ebf18b;
-  --clr-green: #bff3bb;
+  --clr-light-yellow: #EBF18B;
+  --clr-green: #B4FF82;
   --clr-dark: #1D1D1D;
   --clr-dark-gray: #696767;
 }
@@ -117,8 +117,8 @@ body {
   transition: transform 250ms ease-in-out;
 }
 
-.main .link:hover:after,
-.main .link:focus:after {
+.main .link:hover:before,
+.main .link:focus:before {
   transform: scaleY(1);
 }
 
