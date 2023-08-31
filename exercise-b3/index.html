@@ -4,21 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica B3</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <title>Práctica B3</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+  <nav class="navbar navbar-expand-md bg-primary" data-bs-theme="dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Bootstrap</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse d-md-flex" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-md-0 ms-md-auto">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
@@ -42,10 +42,7 @@
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <span class="navbar-text text-white ml-md-3 fw-bold">+5555 55555</span>
       </div>
     </div>
   </nav>
@@ -61,16 +58,19 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <figure class="position-relative" style="padding-bottom: 37.5%;">
-          <img src="./images/img1.png" class="d-block w-100 h-100 object-fit-cover position-absolute top-0 left-0" alt="">
+          <img src="./images/img1.png" class="d-block w-100 h-100 object-fit-cover position-absolute top-0 left-0"
+            alt="">
         </figure>
         <div class="carousel-caption d-none d-md-block">
           <h5>Título</h5>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Sed ut perspiciatis unde omnis iste natus error sit.</p>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium Sed ut
+            perspiciatis unde omnis iste natus error sit.</p>
         </div>
       </div>
       <div class="carousel-item">
         <figure class="position-relative" style="padding-bottom: 37.5%;">
-          <img src="./images/img2.png" class="d-block w-100 h-100 object-fit-cover position-absolute top-0 left-0" alt="">
+          <img src="./images/img2.png" class="d-block w-100 h-100 object-fit-cover position-absolute top-0 left-0"
+            alt="">
         </figure>
         <div class="carousel-caption d-none d-md-block">
           <h5>Título</h5>
@@ -79,7 +79,8 @@
       </div>
       <div class="carousel-item">
         <figure class="position-relative" style="padding-bottom: 37.5%;">
-          <img src="./images/img3.png" class="d-block w-100 h-100 object-fit-cover position-absolute top-0 left-0" alt="">
+          <img src="./images/img3.png" class="d-block w-100 h-100 object-fit-cover position-absolute top-0 left-0"
+            alt="">
         </figure>
         <div class="carousel-caption d-none d-md-block">
           <h5>Título</h5>
@@ -96,14 +97,142 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <section class="mt-3">
+    <div class="container">
+      <h2 class="fw-normal display-5 text-center">Lorem, ipsum dolor.</h2>
+      <p class="mt-4 mb-0 text-center text-info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit dolor dolorum praesentium recusandae
+        dolores quidem, exercitationem culpa fuga quae officiis eius minus magni odio, maiores deleniti! Adipisci, ab
+        corporis?
+      </p>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card mt-3">
+            <img src="./images/img3.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-info text-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card mt-3">
+            <img src="./images/img3.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-info text-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card mt-3">
+            <img src="./images/img3.png" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <a href="#" class="btn btn-info text-light">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-body-tertiary my-4">
+    <div class="container py-4">
+      <h2 class="display-5 fw-normal">Hello, world!</h2>
+      <p class="fs-5">Using a series of utilities, you can create this jumbotron, just like the one in previous versions
+        of Bootstrap.</p>
+      <p class="fs-5 mt-4"> Check out the examples below for how you can remix and restyle it to your liking.</p>
+      <button class="btn btn-primary btn-lg mt-4" type="button">Example button</button>
+    </div>
+  </section>
+  <section class="mt-4">
+    <div class="container">
+      <h2 class="fw-normal display-5 text-center">Lorem, ipsum dolor.</h2>
+      <p class="mt-4 mb-0 text-center text-info">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fugit dolor dolorum praesentium recusandae
+        dolores quidem, exercitationem culpa fuga quae officiis eius minus magni odio, maiores deleniti! Adipisci, ab
+        corporis?
+      </p>
+      <div class="row">
+        <div class="col-12 col-sm-6 mt-4">
+          <div class="accordion" style="--bs-accordion-active-bg: #0DCAF0; --bs-accordion-active-color: #F8F9FA;"
+            id="accordionFlushExample">
+            <div class="accordion-item rounded-0">
+              <h2 class="accordion-header">
+                <button class="accordion-button rounded-0" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne" aria-expanded="true" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the first item's accordion body.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-0">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-0" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this
+                  being filled with some actual content.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item rounded-0">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-0" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                  <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the space to make it look, at least at first
+                  glance, a bit more representative of how this would look in a real-world application.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 mt-4">
+          <div class="card" style="--bs-border-radius: 0;">
+            <img src="./images/img2.png" class="card-img-top" alt="">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item bg-info text-light">An item</li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+              <li class="list-group-item">A fith item</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark mt-4">
+    <div class="container">
+      <p class="text-light py-3 px-md-5 text-center m-0">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, officiis cumque! Quis facere temporibus
+        aspernatur facilis nesciunt suscipit! Tenetur iusto eius delectus eveniet ad!
+      </p>
+    </div>
+  </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
-    integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
     crossorigin="anonymous"></script>
 </body>
 
